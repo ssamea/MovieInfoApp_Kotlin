@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WriteCommentActivity">
+
+    <EditText
+        android:padding="13dp"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:lines="10"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rec"
+        android:hint="평점은 최대 1000자까지 등록 가능합니다.
+영화와 상관없는 내용은 약관에 의해 제재를 받을 수 있습니다."
+        android:textColorHint="@android:color/secondary_text_light_nodisable"
+    />
+
+    <Button
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/enrollButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="등록하기" />
+
+
+
+</LinearLayout>

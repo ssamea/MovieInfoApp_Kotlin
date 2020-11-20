@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/notice"
+        android:title="공지">
+    </item>
+
+    <item
+        android:id="@+id/button_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="검색"
+        android:visible="true"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout">
+    </item>
+
+</menu>
